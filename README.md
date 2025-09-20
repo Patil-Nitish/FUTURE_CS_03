@@ -1,4 +1,4 @@
-```markdown
+
 # FUTURE_CS_03 - RustShare
 
 ## 🔐 RustShare - Secure File Sharing System
@@ -49,7 +49,7 @@ A high-performance, secure file sharing system built with Rust, featuring AES-25
 ### 💻 Local Development
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Patil-Nitish/FUTURE_CS_03.git
 cd FUTURE_CS_03
 
 # Navigate to RustShare directory
@@ -368,14 +368,13 @@ This project is created for the FUTURE_CS_03 internship program demonstrating pr
 
 ## 🎯 Learning Outcomes Achieved
 
-✅ **Web Development**: Full-stack application with Rust backend
-✅ **Cryptography**: AES-256-GCM encryption implementation
-✅ **Security**: Secure key management and file handling
-✅ **Deployment**: Production-ready cloud deployment
-✅ **Performance**: High-performance Rust application
-✅ **Documentation**: Comprehensive technical documentation
+- ✅ **Web Development**: Full-stack application with Rust backend
+- ✅ **Cryptography**: AES-256-GCM encryption implementation
+- ✅ **Security**: Secure key management and file handling
+- ✅ **Deployment**: Production-ready cloud deployment
+- ✅ **Performance**: High-performance Rust application
+- ✅ **Documentation**: Comprehensive technical documentation
 
 **🚀 Live Demo**: [https://future-cs-03-b8iu.onrender.com/](https://future-cs-03-b8iu.onrender.com/)
 
 *Built with ❤️ and Rust for secure, high-performance file sharing*
-```
