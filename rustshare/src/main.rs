@@ -16,6 +16,7 @@ use hmac::Hmac;
 use rand::Rng;
 use tera::{Tera, Context};
 use chrono::{DateTime, Utc};
+use std::env;
 
 // Define the encryption key size (32 bytes for AES-256)
 const KEY_SIZE: usize = 32;
@@ -276,7 +277,8 @@ async fn main() -> std::io::Result<()> {
     // Initialize logger
     std::env::set_var("RUST_LOG", "actix_web=info");
     env_logger::init();
-    
+    let server_url = format!("0.0.0.0:{}", port);
+    println!("Starting server at http://{}", server_url);
     // Create uploads directory if it doesn't exist
     fs::create_dir_all("./uploads").unwrap();
     fs::create_dir_all("./templates").unwrap();
@@ -304,7 +306,7 @@ async fn main() -> std::io::Result<()> {
             .route("/files", web::get().to(list_files))
             .route("/health", web::get().to(health_check))
     })
-    .bind(("0.0.0.0", port))?
+    .bind(server_url)?
     .run()
     .await
 }
