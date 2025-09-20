@@ -45,7 +45,7 @@ A high-performance, secure file sharing system built with Rust, featuring AES-25
 3. Click "Upload & Encrypt" - save the generated File ID
 4. Share the File ID with authorized users
 5. Download using File ID + password combination
-
+```
 ### 💻 Local Development
 ```bash
 # Clone the repository
