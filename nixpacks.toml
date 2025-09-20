@@ -1,0 +1,12 @@
+[phases.setup]
+cmds = [
+    "cd rustshare && cargo fetch"
+]
+
+[phases.build]
+cmds = [
+    "cd rustshare && cargo build --release"
+]
+
+[start]
+cmd = "cd rustshare && ./target/release/rustshare"
