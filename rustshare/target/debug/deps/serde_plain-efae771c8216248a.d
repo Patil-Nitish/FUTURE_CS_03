@@ -1,0 +1,11 @@
+E:\FUTURE_CS_03\rustshare\target\debug\deps\serde_plain-efae771c8216248a.d: C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs
+
+E:\FUTURE_CS_03\rustshare\target\debug\deps\libserde_plain-efae771c8216248a.rlib: C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs
+
+E:\FUTURE_CS_03\rustshare\target\debug\deps\libserde_plain-efae771c8216248a.rmeta: C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs
+
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs:
