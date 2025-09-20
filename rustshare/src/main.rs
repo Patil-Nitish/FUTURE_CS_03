@@ -277,8 +277,8 @@ async fn main() -> std::io::Result<()> {
     // Initialize logger
     std::env::set_var("RUST_LOG", "actix_web=info");
     env_logger::init();
-    let server_url = format!("0.0.0.0:{}", port);
-    println!("Starting server at http://{}", server_url);
+    
+    
     // Create uploads directory if it doesn't exist
     fs::create_dir_all("./uploads").unwrap();
     fs::create_dir_all("./templates").unwrap();
@@ -288,13 +288,14 @@ async fn main() -> std::io::Result<()> {
         .unwrap_or_else(|_| "8080".to_string())
         .parse::<u16>()
         .unwrap_or(8080);
-    
+    let server_url = format!("0.0.0.0:{}", port);
+    println!("Starting server at http://{}", server_url);
     // Initialize Tera templates
     let mut tera = Tera::new("templates/**/*").unwrap();
     
     // If we're running in a production environment, we might need to load the template differently
     // For now, we'll just use the file system
-    println!("Starting server at http://0.0.0.0:{}", port);
+    //println!("Starting server at http://0.0.0.0:{}", port);
     
     HttpServer::new(move || {
         App::new()
