@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: rustshare
+    env: rust
+    plan: free
+    buildCommand: cd rustshare && cargo build --release
+    startCommand: cd rustshare && ./target/release/rustshare
+    envVars:
+      - key: RUST_LOG
+        value: actix_web=info
+      - key: PORT
+        value: 8080
